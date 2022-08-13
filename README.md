@@ -8,7 +8,7 @@
 1. Initiates the request. The optional argument provides the request entity body. The argument is ignored if request method is GET or HEAD. Throws an "InvalidStateError" exception if the state is not OPENED or if the send() flag is set.
 
 Из спецификации Fetch Standart:
-2. If either init’s body member is present and is non-null or inputBody is non-null, and request’s method is GET or HEAD, then throw a TypeError.
+1. If either init’s body member is present and is non-null or inputBody is non-null, and request’s method is GET or HEAD, then throw a TypeError.
 
 
 ## 2. Не открывается сайт приложения. Задача : описать ваши действия в сложившейся ситуации.
